@@ -1,0 +1,118 @@
+*{
+  font-family:  'Kumbh Sans', sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 700px;
+  background: cornsilk;
+  background: linear-gradient(to bottom, rgb(171, 193, 206), rgb(188, 248, 235));
+  background: -webkit-linear-gradient(to bottom, rgb(171, 193, 206), rgb(188, 248, 235));
+  margin: 20px auto;
+}
+.calculator{
+  background-color: rgb(84, 83, 90);
+  width: 400px;
+  height: 540px;
+  border: 1px solid white;
+  border-radius: 6px;
+  position: relative;
+}
+.result{
+  width: 90%;
+  height: 120px;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgb(235, 246, 248);
+  /* border: 1px solid red; */
+}
+.compute{
+  /* border: 1px solid blue; */
+  height: 50%;
+  width: 348px;
+  overflow: hidden;
+  ;
+}
+.compute p{
+  float: right;
+  font-size: 30px;
+  margin: 10px auto;
+  text-align: center;
+  color: rgb(25, 22, 46);
+}
+.output{
+  /* border: 1px solid blue; */
+  height: 50%;
+  width: 348px;
+  padding: auto 4px;
+  overflow: hidden;
+}
+.output p{
+  float: right;
+  font-size: 40px;
+  margin: 8px auto;
+  text-align: center;
+  color: rgb(9, 1, 31);
+}
+.keyboard{
+  width: 90%;
+  height: 360px;
+  border: 1px solid rgb(221, 220, 220);
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-radius: 4px;
+}
+button{
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+.operator{
+  background-color: rgb(221, 220, 220);
+  color: rgb(0, 0, 0);
+  /* border: 0.15px solid rgb(0, 0, 0); */
+  font-size: 30px;
+}
+
+#clear{
+  background-color: rgb(238, 102, 142);
+  color: white;
+  border: 0.25px solid rgb(199, 178, 178);
+  font-size: 25px;
+}
+#backspace{
+  background-color: rgb(141, 139, 21);
+  color: white;
+  border: 0.25px solid rgb(199, 178, 178);
+  font-size: 25px;
+}
+#percent{
+  background-color: rgb(80, 143, 119);
+  color: white;
+  border: 0.25px solid rgb(199, 178, 178);
+  font-size: 25px;
+}
+.number{
+  background-color: rgb(46, 42, 42);
+  color: white;
+  border: 0.25px solid rgb(128, 128, 128);
+}
+.float-point{
+  background-color: rgb(46, 42, 42);
+  color: white;
+  border: 0.25px solid rgb(128, 128, 128);
+  font-size: 30px;
+}
