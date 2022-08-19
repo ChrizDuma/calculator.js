@@ -32,10 +32,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   background: rgb(235, 246, 248);
-  /* border: 1px solid red; */
 }
 .compute{
-  /* border: 1px solid blue; */
   height: 50%;
   width: 348px;
   overflow: hidden;
@@ -49,7 +47,6 @@
   color: rgb(25, 22, 46);
 }
 .output{
-  /* border: 1px solid blue; */
   height: 50%;
   width: 348px;
   padding: auto 4px;
@@ -83,7 +80,6 @@ button{
 .operator{
   background-color: rgb(221, 220, 220);
   color: rgb(0, 0, 0);
-  /* border: 0.15px solid rgb(0, 0, 0); */
   font-size: 30px;
 }
 
@@ -94,7 +90,7 @@ button{
   font-size: 25px;
 }
 #backspace{
-  background-color: rgb(141, 139, 21);
+  background-color: rgb(170, 167, 5);
   color: white;
   border: 0.25px solid rgb(199, 178, 178);
   font-size: 25px;
